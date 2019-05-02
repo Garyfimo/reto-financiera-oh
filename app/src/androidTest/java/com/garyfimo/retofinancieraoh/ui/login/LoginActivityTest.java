@@ -57,7 +57,7 @@ public class LoginActivityTest {
 
     @Test
     public void showSmsCodeViewAfterWritePhoneNumber() throws InterruptedException {
-        String phoneNumber = "959821390";
+        String phoneNumber = "95982139";
         onView(withId(R.id.et_phone_number)).perform(typeText(phoneNumber), closeSoftKeyboard());
         Thread.sleep(1000);
         onView(withId(R.id.smscode)).check(matches(isDisplayed()));
