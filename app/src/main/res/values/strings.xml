@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Reto Financiera Oh</string>
+    <string name="text_number_phone">Numero de teléfono</string>
+    <string name="title_activity_login">Inicia sesión</string>
+    <string name="phone_number_must_not_be_empty">Teléfono no debe estar vacío</string>
+    <string name="invalid_phone_number">Teléfono no válido</string>
+    <string name="invalid_sms_validation">Código de validación incorrecto</string>
+
+    <string name="create">Crear</string>
+    <string name="field_can_not_be_empty">Campo no puede estar vacío</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="age">Edad</string>
+    <string name="birthday">Fecha de cumpleanos</string>
+    <string name="text_too_many_requests">Se han enviado muchas solicitudes, esperar unos minutos.</string>
+    <string name="text_invalid_credentials">Credenciales no válidas</string>
+    <string name="text_invalid_code">Código de validación incorrecto.</string>
+    <string name="resend">Reenviar</string>
+    <string name="text_not_connected_network">Necesitas estar conectado a internet</string>
+    <string name="biometric_failed">Huella no reconocida</string>
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Inicia sesión en Reto Financiero Oh</string>
+    <string name="biometric_description">Coloca tu huella en el sensor para la verificación</string>
+    <string name="biometric_negative_button_text">Cancelar</string>
+
+
+    <string name="biometric_error_sdk_not_supported">Sdk version not supported</string>
+    <string name="biometric_error_hardware_not_supported">El dispositivo no soporta autenticación por huella</string>
+    <string name="biometric_error_fingerprint_not_available">La huella no está registrada en el dispositivo</string>
+    <string name="biometric_error_permission_not_granted">Permiso no brindado</string>
+    <string name="biometric_failure">Login no exitoso</string>
+    <string name="biometric_cancelled">Autenticación cancelada por el usuario</string>
+    <string name="biometric_success">Login exitoso</string>
+    <string name="text_fingerprint">Huella</string>
+    <string name="text_o_fingerprint">o también puedes hacerlo con huella dando clic en la imagen</string>
+</resources>

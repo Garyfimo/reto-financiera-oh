@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862899396304",
+    "firebase_url": "https://reto-financiera-oh.firebaseio.com",
+    "project_id": "reto-financiera-oh",
+    "storage_bucket": "reto-financiera-oh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862899396304:android:b2f8913184ae9f9d",
+        "android_client_info": {
+          "package_name": "com.garyfimo.retofinancieraoh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862899396304-lhemthvnl670qtipcpag76d8jdcnhrf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garyfimo.retofinancieraoh",
+            "certificate_hash": "916104d21c6b6fa6d799c98d969219e1b9d3ca5a"
+          }
+        },
+        {
+          "client_id": "862899396304-4c23hqmhol5c4fc07tfhsoce24cpna8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDT08WDmUQcBSzAB8fCPx0f261qHlXNiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862899396304-4c23hqmhol5c4fc07tfhsoce24cpna8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
