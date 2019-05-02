@@ -192,7 +192,7 @@ public class LoginActivity extends BaseActivity implements LoginView, BiometricC
                 .setSubtitle(getString(R.string.biometric_subtitle))
                 .setDescription(getString(R.string.biometric_description))
                 .setNegativeButtonText(getString(R.string.biometric_negative_button_text))
-                .build()
+//                .build()
                 .authenticate(LoginActivity.this);
     }
 
