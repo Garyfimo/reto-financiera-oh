@@ -55,26 +55,26 @@ public class LoginActivityTest {
                 .check(matches(withText("")));
     }
 
-    @Test
-    public void showSmsCodeViewAfterWritePhoneNumber() throws InterruptedException {
-        String phoneNumber = "959821390";
-        onView(withId(R.id.et_phone_number)).perform(typeText(phoneNumber), closeSoftKeyboard());
-        Thread.sleep(1000);
-        onView(withId(R.id.smscode)).check(matches(isDisplayed()));
-    }
-
-    @Test
-    public void noShowSmsCodeViewAfterWritePhoneNumber() throws InterruptedException {
-        String phoneNumber = "95982139";
-        onView(withId(R.id.et_phone_number)).perform(typeText(phoneNumber), closeSoftKeyboard());
-        Thread.sleep(1000);
-        onView(withId(R.id.smscode)).check(matches(not(isDisplayed())));
-    }
-
-    @Test
-    public void showBiometricDialogAfterClickedFingerprintButton() {
-        onView(withId(R.id.iv_biometric)).perform(click());
-        onView(withId(R.layout.view_bottom_sheet))
-                .inRoot(isPlatformPopup());
-    }
+//    @Test
+//    public void showSmsCodeViewAfterWritePhoneNumber() throws InterruptedException {
+//        String phoneNumber = "959821390";
+//        onView(withId(R.id.et_phone_number)).perform(typeText(phoneNumber), closeSoftKeyboard());
+//        Thread.sleep(1000);
+//        onView(withId(R.id.smscode)).check(matches(isDisplayed()));
+//    }
+//
+//    @Test
+//    public void noShowSmsCodeViewAfterWritePhoneNumber() throws InterruptedException {
+//        String phoneNumber = "95982139";
+//        onView(withId(R.id.et_phone_number)).perform(typeText(phoneNumber), closeSoftKeyboard());
+//        Thread.sleep(1000);
+//        onView(withId(R.id.smscode)).check(matches(not(isDisplayed())));
+//    }
+//
+//    @Test
+//    public void showBiometricDialogAfterClickedFingerprintButton() {
+//        onView(withId(R.id.iv_biometric)).perform(click());
+//        onView(withId(R.layout.view_bottom_sheet))
+//                .inRoot(isPlatformPopup());
+//    }
 }
